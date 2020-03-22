@@ -1,3 +1,4 @@
 {
-  "mongoURL": "mongodb+srv://hayderjebur:mongo22@loger-nqxe9.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURL": "mongodb+srv://hayderjebur:mongo22@loger-nqxe9.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "this is my secret words"
 }
