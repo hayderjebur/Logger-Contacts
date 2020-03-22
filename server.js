@@ -1,6 +1,13 @@
 const express = require("express");
+const connectDB = require("./config/db");
 
 const app = express();
+
+//Connect Database
+connectDB();
+
+//Init Middeleware
+app.use(express.json({ extened: false }));
 
 app.get("/", (req, res) => {
   res.json({ mes: "Welcom to Loger app" });

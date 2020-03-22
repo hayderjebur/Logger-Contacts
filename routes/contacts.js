@@ -15,17 +15,17 @@ router.post("/", (req, res) => {
   res.send("add contact");
 });
 
-// @route    Put api/contacts
+// @route    Put api/contact/:id
 //@desc      update a new contact
 //@acesses   Private
-router.put("/", (req, res) => {
+router.put("/:id", (req, res) => {
   res.send("Update contact");
 });
 
-// @route    Delete api/users
+// @route    Delete api/contact/:id
 //@desc       Delete contact
 //@acesses   Private
-router.delete("/", (req, res) => {
+router.delete("/:id", (req, res) => {
   res.send("Delete contact");
 });
 
