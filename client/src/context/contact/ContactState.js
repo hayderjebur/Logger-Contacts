@@ -11,7 +11,7 @@ import {
   CLEAR_FILTER,
   FILTER_CONTACT,
   UPDATE_CONTACT
-} from "../type";
+} from "../types";
 
 const ContactState = props => {
   const initialState = {
